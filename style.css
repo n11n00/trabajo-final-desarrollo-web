@@ -23,6 +23,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     top: 0px;
+    z-index: +2;
 }
 
 nav {
@@ -95,7 +96,7 @@ h3 {
 }
 
 div {
-    margin: 30px;
+    margin: 0px;
 }
 
 .colab-artist {
@@ -144,4 +145,16 @@ section {
 .grid-item3 {
     width: 400px;
     height: 300px;
+}
+
+.carouselstyle {
+ padding-top:120px ;
+ display: flex;
+ justify-content: center;
+
+}
+
+.hola {
+   margin: 0px;
+   
 }
