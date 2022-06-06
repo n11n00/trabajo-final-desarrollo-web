@@ -44,6 +44,8 @@ nav {
     width: 30%; 
 }
 
+
+
 .menu {
     display: flex;
     justify-content: center;
@@ -64,6 +66,14 @@ li {
     border-radius: 25px;
     flex-wrap: wrap;
 }
+
+li:hover {
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color :coral;
+}
+
 
 a {
     color: black;
@@ -116,6 +126,12 @@ footer {
     width: 100%;
 }
 
+.discos-dimensions:hover {
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
 section {
     padding: 10px 0px 10px 0px;
 }
@@ -137,14 +153,32 @@ section {
     height: 300px;
 }
 
+.grid-item1:hover {
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
 .grid-item2 {
     width: 400px;
     height: 300px;
 }
 
+.grid-item2:hover {
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
 .grid-item3 {
     width: 400px;
     height: 300px;
+}
+
+.grid-item3:hover {
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
 .carouselstyle {
