@@ -1,0 +1,63 @@
+// Estilos Header //
+
+header {
+    width: 100%;
+    background-image: url(../../Multimedia/Imagenes/textura_blanca_menu.jpg);
+    background-size:auto;
+    background-attachment: fixed;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 0px;
+    z-index: +2;
+    .nav-header {
+        padding: 20px;
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+            width: 30%; 
+            }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            .menu {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+            }
+            li {
+                border: 1px solid black;
+                display: flex;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 25px;
+                flex-wrap: wrap;
+            }
+
+            li:hover {
+                transform: scale(1.2);
+                transition-property: all;
+                transition-duration: 0.5s;
+                background-color :coral;
+            }             
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

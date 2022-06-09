@@ -1,0 +1,196 @@
+header {
+  width: 100%;
+  background-image: url(../../Multimedia/Imagenes/textura_blanca_menu.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 0px;
+  z-index: 2;
+}
+header .nav-header {
+  padding: 20px;
+}
+header .nav-header .logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+}
+header .nav-header ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .nav-header ul .menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+header .nav-header ul li {
+  border: 1px solid black;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  flex-wrap: wrap;
+}
+header .nav-header ul li:hover {
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: 0.5s;
+  background-color: coral;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+* body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-image: url(../../Multimedia/Imagenes/background_studio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+* body section {
+  padding: 10px 0px 10px 0px;
+}
+* body nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+* body div {
+  margin: 0px;
+}
+* body h1 {
+  font-size: xx-large;
+  color: bisque;
+  margin: 150px 40px 40px 40px;
+}
+* body h2 {
+  font-size: xx-large;
+  color: bisque;
+  margin: 150px 40px 40px 40px;
+}
+* body h3 {
+  font-size: x-large;
+  color: rgb(240, 187, 119);
+  padding: 20px 0px 40px 0px;
+}
+* body a {
+  color: black;
+  text-decoration: none;
+}
+
+.carouselstyle {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin: 40px;
+}
+footer .ico-insta:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+footer .ico-faceb:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+footer .ico-yt:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+footer .ico-tw:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+footer .ico-spoty:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+footer .ico-soundc:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.paragraph-bio {
+  background-image: url(../../Multimedia/Imagenes/banner_bio.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  color: antiquewhite;
+  padding: 40px;
+}
+
+.discos-dimensions {
+  width: 100%;
+}
+
+.discos-dimensions:hover {
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.colab-artist {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px;
+  padding: 40px;
+}
+.colab-artist .grid-container {
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "grid-item1 grid-item2 grid-item3";
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.colab-artist .grid-container .grid-item1 {
+  width: 400px;
+  height: 300px;
+}
+.colab-artist .grid-container .grid-item1:hover {
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.colab-artist .grid-container .grid-item2 {
+  width: 400px;
+  height: 300px;
+}
+.colab-artist .grid-container .grid-item2:hover {
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.colab-artist .grid-container .grid-item3 {
+  width: 400px;
+  height: 300px;
+}
+.colab-artist .grid-container .grid-item3:hover {
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */
