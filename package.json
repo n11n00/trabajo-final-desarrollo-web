@@ -1,7 +1,6 @@
 {
   "name": "entrega-final-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/n11n00/trabajo-final-desarrollo-web/issues"
   },
-  "homepage": "https://github.com/n11n00/trabajo-final-desarrollo-web#readme"
+  "homepage": "https://github.com/n11n00/trabajo-final-desarrollo-web#readme",
+  "description": ""
 }

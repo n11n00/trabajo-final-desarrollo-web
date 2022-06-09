@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background-image: url(../../Multimedia/Imagenes/textura_blanca_menu.jpg);
+  background-image: url(../Multimedia/Imagenes/textura_blanca_menu.jpg);
   background-size: auto;
   background-attachment: fixed;
   position: fixed;
@@ -51,7 +51,7 @@ header .nav-header ul li:hover {
 * body {
   font-family: "Lato", sans-serif;
   text-align: center;
-  background-image: url(../../Multimedia/Imagenes/background_studio.jpg);
+  background-image: url(../Multimedia/Imagenes/background_studio.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -130,7 +130,7 @@ footer .ico-soundc:hover {
 }
 
 .paragraph-bio {
-  background-image: url(../../Multimedia/Imagenes/banner_bio.jpg);
+  background-image: url(../Multimedia/Imagenes/banner_bio.jpg);
   background-size: contain;
   background-attachment: fixed;
   color: antiquewhite;
