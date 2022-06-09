@@ -2,6 +2,6 @@
     background-image: url(../Multimedia/Imagenes/banner_bio.jpg);
     background-size: contain;
     background-attachment: fixed;
-    color: antiquewhite;
+    color: nth($colores, 4);
     padding: 40px;
 }

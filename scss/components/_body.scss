@@ -1,4 +1,4 @@
-
+@import '../base/listas';
 * {
     margin: 0;
     padding: 0;
@@ -25,22 +25,22 @@
         }
         h1 {
             font-size:xx-large;
-            color:bisque;
+            color: nth($colores, 2 );
             margin: 150px 40px 40px 40px;
         }
         h2 {
             font-size:xx-large;
-            color:bisque;
+            color: nth($colores, 2 );
             margin: 150px 40px 40px 40px;
         }
         
         h3 {
             font-size:x-large;
-            color:rgb(240, 187, 119) ;
+            color: nth($colores, 3 );
             padding: 20px 0px 40px 0px;
         }
         a {
-            color: black;
+            color: nth($colores , 1);
             text-decoration: none;
         }
     }

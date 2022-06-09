@@ -1,5 +1,4 @@
-.carouselstyle {
-    padding-top:120px ;
+@mixin  flexbox-center {
     display: flex;
     justify-content: center;
-   }
+}

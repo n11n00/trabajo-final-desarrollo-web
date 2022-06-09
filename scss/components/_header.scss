@@ -1,13 +1,12 @@
 // Estilos Header //
-
+@import '../base/mixing';
 header {
     width: 100%;
     background-image: url(../Multimedia/Imagenes/textura_blanca_menu.jpg);
     background-size:auto;
     background-attachment: fixed;
     position: fixed;
-    display: flex;
-    justify-content: center;
+    @include flexbox-center;
     flex-wrap: wrap;
     top: 0px;
     z-index: +2;
