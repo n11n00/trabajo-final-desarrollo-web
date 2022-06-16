@@ -1,0 +1,7 @@
+Modificaciones del SEO
+
+*modifico descripciones de los alts y titles de imagenes y videos iframes
+*aplico meta tags
+*aplico open graph
+*aplico favicon
+*modifique el formato de las imagenes del sitio de jpg a svg
