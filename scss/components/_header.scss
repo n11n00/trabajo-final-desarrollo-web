@@ -2,11 +2,11 @@
 @import '../base/mixing';
 header {
     width: 100%;
-    background-image: url(../Multimedia/Imagenes/textura_blanca_menu.jpg);
+    background-image: url(../Multimedia/Imagenes/textura_blanca_menu.svg);
     background-size:auto;
     background-attachment: fixed;
     position: fixed;
-    @include flexbox-center;
+    @include flexer (flex, center);
     flex-wrap: wrap;
     top: 0px;
     z-index: +2;
@@ -21,8 +21,7 @@ header {
             display: flex;
             flex-wrap: wrap;
             .menu {
-                display: flex;
-                justify-content: center;
+                @include flexer (flex, center);
                 align-content: center;
                 align-items: center;
             }

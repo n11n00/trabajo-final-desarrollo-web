@@ -1,40 +1,30 @@
+
+
 footer {
     margin: 40px;
     
     .ico-insta:hover {
-        transform: scale(1.5);
-        transition-property: all;
-        transition-duration: 0.5s;
+        @extend %animacion-ico;
     }
     
     .ico-faceb:hover {
-        transform: scale(1.5);
-        transition-property: all;
-        transition-duration: 0.5s;
+        @extend %animacion-ico;
     }
     
     .ico-yt:hover {
-        transform: scale(1.5);
-        transition-property: all;
-        transition-duration: 0.5s;
+        @extend %animacion-ico;
     }
     
     .ico-tw:hover {
-        transform: scale(1.5);
-        transition-property: all;
-        transition-duration: 0.5s;
+        @extend %animacion-ico;
     }
     
     .ico-spoty:hover {
-        transform: scale(1.5);
-        transition-property: all;
-        transition-duration: 0.5s;
+        @extend %animacion-ico;
     }
     
     .ico-soundc:hover {
-        transform: scale(1.5);
-        transition-property: all;
-        transition-duration: 0.5s;
+        @extend %animacion-ico;
     }
 
 

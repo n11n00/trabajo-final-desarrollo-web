@@ -4,7 +4,5 @@
 }
 
 .discos-dimensions:hover {
-    transform: scale(1.2);
-    transition-property: all;
-    transition-duration: 0.5s;
+    @extend %animacion;
 }

@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background-image: url(../Multimedia/Imagenes/textura_blanca_menu.jpg);
+  background-image: url(../Multimedia/Imagenes/textura_blanca_menu.svg);
   background-size: auto;
   background-attachment: fixed;
   position: fixed;
@@ -51,7 +51,7 @@ header .nav-header ul li:hover {
 * body {
   font-family: "Lato", sans-serif;
   text-align: center;
-  background-image: url(../Multimedia/Imagenes/background_studio.jpg);
+  background-image: url(../Multimedia/Imagenes/background_studio.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -98,39 +98,8 @@ header .nav-header ul li:hover {
 footer {
   margin: 40px;
 }
-footer .ico-insta:hover {
-  transform: scale(1.5);
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-footer .ico-faceb:hover {
-  transform: scale(1.5);
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-footer .ico-yt:hover {
-  transform: scale(1.5);
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-footer .ico-tw:hover {
-  transform: scale(1.5);
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-footer .ico-spoty:hover {
-  transform: scale(1.5);
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-footer .ico-soundc:hover {
-  transform: scale(1.5);
-  transition-property: all;
-  transition-duration: 0.5s;
-}
-
 .paragraph-bio {
-  background-image: url(../Multimedia/Imagenes/banner-bio.jpg);
+  background-image: url(../Multimedia/Imagenes/banner-bio.svg);
   background-size: contain;
   background-attachment: fixed;
   color: antiquewhite;
@@ -139,12 +108,6 @@ footer .ico-soundc:hover {
 
 .discos-dimensions {
   width: 100%;
-}
-
-.discos-dimensions:hover {
-  transform: scale(1.2);
-  transition-property: all;
-  transition-duration: 0.5s;
 }
 
 .colab-artist {
@@ -169,25 +132,21 @@ footer .ico-soundc:hover {
   width: 400px;
   height: 300px;
 }
-.colab-artist .grid-container .grid-item1:hover {
-  transform: scale(1.2);
-  transition-property: all;
-  transition-duration: 0.5s;
-}
 .colab-artist .grid-container .grid-item2 {
   width: 400px;
   height: 300px;
-}
-.colab-artist .grid-container .grid-item2:hover {
-  transform: scale(1.2);
-  transition-property: all;
-  transition-duration: 0.5s;
 }
 .colab-artist .grid-container .grid-item3 {
   width: 400px;
   height: 300px;
 }
-.colab-artist .grid-container .grid-item3:hover {
+footer .ico-insta:hover, footer .ico-faceb:hover, footer .ico-yt:hover, footer .ico-tw:hover, footer .ico-spoty:hover, footer .ico-soundc:hover {
+  transform: scale(1.5);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.discos-dimensions:hover, .colab-artist .grid-container .grid-item1:hover, .colab-artist .grid-container .grid-item2:hover, .colab-artist .grid-container .grid-item3:hover {
   transform: scale(1.2);
   transition-property: all;
   transition-duration: 0.5s;

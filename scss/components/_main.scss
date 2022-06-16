@@ -1,5 +1,4 @@
 .carouselstyle {
     padding-top:120px ;
-    display: flex;
-    justify-content: center;
+    @include flexer (flex, center);
    }

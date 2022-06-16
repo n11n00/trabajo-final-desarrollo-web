@@ -20,9 +20,7 @@
         }
         
         .grid-item1:hover {
-            transform: scale(1.2);
-            transition-property: all;
-            transition-duration: 0.5s;
+            @extend %animacion;
         }
         
         .grid-item2 {
@@ -31,9 +29,7 @@
         }
         
         .grid-item2:hover {
-            transform: scale(1.2);
-            transition-property: all;
-            transition-duration: 0.5s;
+            @extend %animacion;
         }
         
         .grid-item3 {
@@ -42,9 +38,7 @@
         }
         
         .grid-item3:hover {
-            transform: scale(1.2);
-            transition-property: all;
-            transition-duration: 0.5s;
+            @extend %animacion;
         }
     }
 }
