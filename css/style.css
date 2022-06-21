@@ -1,6 +1,8 @@
 header {
   width: 100%;
   background-image: url(../Multimedia/Imagenes/textura_blanca_menu.svg);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   background-size: auto;
   background-attachment: fixed;
   position: fixed;
@@ -44,8 +46,8 @@ header .nav-header ul li:hover {
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   list-style-type: none;
 }
 * body {
@@ -99,15 +101,26 @@ footer {
   margin: 40px;
 }
 .paragraph-bio {
-  background-image: url(../Multimedia/Imagenes/banner-bio.svg);
+  background-image: url(../../Multimedia/Imagenes/o-tamano-look-banner-fondo_7189-2264.svg);
+  width: 60%;
+  border-radius: 20px;
+  justify-content: center;
   background-size: contain;
   background-attachment: fixed;
-  color: antiquewhite;
-  padding: 40px;
+  color: black;
+  padding: 90px 7%;
+  margin: 0% auto;
+  font-size: x-large;
+}
+
+.playlist {
+  width: 80%;
+  margin: auto;
 }
 
 .discos-dimensions {
   width: 100%;
+  border-radius: 12px;
 }
 
 .colab-artist {

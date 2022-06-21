@@ -4,6 +4,7 @@
     flex-wrap:wrap ;
     margin: 40px;
     padding: 40px;
+    
     .grid-container {
         display: grid;
         grid-template-rows: 400px;
@@ -14,6 +15,7 @@
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
+        
         .grid-item1 {
             width: 400px;
             height: 300px;
