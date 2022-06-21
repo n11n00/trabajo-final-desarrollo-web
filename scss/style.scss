@@ -9,3 +9,7 @@
 @import '../scss/base/mixing';
 @import 'base/listas';
 @import '../scss/base/extends';
+
+.disclaimer {
+    display: none !important;
+}

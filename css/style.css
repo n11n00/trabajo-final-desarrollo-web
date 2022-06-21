@@ -95,7 +95,7 @@ header .nav-header ul .nav-item:hover {
 }
 
 .carouselstyle {
-  padding-top: 80px;
+  padding-top: 90px;
   display: flex;
   justify-content: center;
 }
@@ -166,6 +166,10 @@ footer .ico-insta:hover, footer .ico-faceb:hover, footer .ico-yt:hover, footer .
   transform: scale(1.2);
   transition-property: all;
   transition-duration: 0.5s;
+}
+
+.disclaimer {
+  display: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */
