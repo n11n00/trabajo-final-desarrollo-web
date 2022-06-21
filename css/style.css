@@ -12,6 +12,9 @@ header {
   top: 0px;
   z-index: 2;
 }
+header .navbar {
+  padding: 10px 100px 10px 100px;
+}
 header .nav-header {
   padding: 20px;
 }
@@ -30,7 +33,7 @@ header .nav-header ul .menu {
   align-content: center;
   align-items: center;
 }
-header .nav-header ul li {
+header .nav-header ul .nav-item {
   border: 1px solid black;
   display: flex;
   margin: 10px;
@@ -38,11 +41,11 @@ header .nav-header ul li {
   border-radius: 25px;
   flex-wrap: wrap;
 }
-header .nav-header ul li:hover {
+header .nav-header ul .nav-item:hover {
   transform: scale(1.2);
   transition-property: all;
   transition-duration: 0.5s;
-  background-color: coral;
+  background-color: bisque;
 }
 
 * {
@@ -92,7 +95,7 @@ header .nav-header ul li:hover {
 }
 
 .carouselstyle {
-  padding-top: 120px;
+  padding-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -101,7 +104,7 @@ footer {
   margin: 40px;
 }
 .paragraph-bio {
-  background-image: url(../../Multimedia/Imagenes/o-tamano-look-banner-fondo_7189-2264.svg);
+  background-image: url(../../Multimedia/Imagenes/banner-bio.svg);
   width: 60%;
   border-radius: 20px;
   justify-content: center;

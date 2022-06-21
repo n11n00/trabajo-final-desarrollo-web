@@ -12,8 +12,14 @@ header {
     flex-wrap: wrap;
     top: 0px;
     z-index: +2;
+
+    .navbar {
+        padding: 10px 100px 10px 100px;
+    }
+
     .nav-header {
         padding: 20px;
+
         .logo {
             display: flex;
             justify-content: flex-start;
@@ -27,7 +33,7 @@ header {
                 align-content: center;
                 align-items: center;
             }
-            li {
+            .nav-item {
                 border: 1px solid black;
                 display: flex;
                 margin: 10px;
@@ -36,11 +42,11 @@ header {
                 flex-wrap: wrap;
             }
 
-            li:hover {
+            .nav-item:hover {
                 transform: scale(1.2);
                 transition-property: all;
                 transition-duration: 0.5s;
-                background-color :coral;
+                background-color :bisque;
             }             
         }
     }
@@ -48,7 +54,7 @@ header {
 
 
 
-
+ 
 
 
 
