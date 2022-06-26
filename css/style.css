@@ -1,14 +1,8 @@
 header {
   width: 100%;
-  background-image: url(../Multimedia/Imagenes/textura_blanca_menu.svg);
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  background-size: auto;
-  background-attachment: fixed;
   position: fixed;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   top: 0px;
   z-index: 2;
 }
@@ -49,8 +43,8 @@ header .nav-header ul .nav-item:hover {
 }
 
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 * body {
@@ -61,6 +55,7 @@ header .nav-header ul .nav-item:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
+  overflow-x: hidden;
 }
 * body section {
   padding: 10px 0px 10px 0px;

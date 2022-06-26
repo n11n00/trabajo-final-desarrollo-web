@@ -2,19 +2,14 @@
 @import '../base/mixing';
 header {
     width: 100%;
-    background-image: url(../Multimedia/Imagenes/textura_blanca_menu.svg);
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    background-size:auto;
-    background-attachment: fixed;
     position: fixed;
     @include flexer (flex, center);
-    flex-wrap: wrap;
     top: 0px;
     z-index: +2;
 
     .navbar {
         padding: 10px 100px 10px 100px;
+        
     }
 
     .nav-header {
